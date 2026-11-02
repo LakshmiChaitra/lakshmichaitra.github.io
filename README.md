@@ -1,6 +1,6 @@
 # Chaitra — Sticker Club portfolio
 
-A static portfolio built around the approved Sticker Club design: a dotted pastel background, pink highlighted title, surprise sticker, and star trails and click bursts. Each of the six project cards dissolves into 45 sparkles that gather into a five-petal flower. The centre matches the selected card and contains a short project introduction; expandable notes below retain the full description, tools, and supplied source links.
+A static portfolio built around the approved Sticker Club design: a dotted pastel background, pink highlighted title, surprise sticker, and star trails and click bursts. Each of the seven project cards dissolves into 45 sparkles that gather into a five-petal flower. The centre matches the selected card and contains a short project introduction; expandable notes below retain the full description, tools, and supplied source links.
 
 ## Preview
 
@@ -10,7 +10,7 @@ There is no build step. GitHub Pages can publish the repository root directly.
 
 ## Content
 
-`content.js` preserves the original site’s remaining six projects, two experience entries, seven skill groups, five training programs, eight certificates and two education records. The original resume remains at `Lakshmi_Chaitra_Resume.pdf`. SmartSpend was removed at the owner’s request. No new claims, credential links or dates have been invented. The separate writing-system demonstration was removed at the owner’s request.
+`content.js` preserves the original site’s seven projects, two experience entries, seven skill groups, five training programs, eight certificates and two education records. The original resume remains at `Lakshmi_Chaitra_Resume.pdf`. SmartSpend was removed at the owner’s request. No new claims, credential links or dates have been invented. The separate writing-system demonstration was removed at the owner’s request.
 
 Pastel is the default for first visits. The mode switch changes the entire portfolio into a professional dark presentation: professional copy, a centred hero, graphite/green/steel colours, subtle stickers, and project case studies in place of flower reveals. Explicit mode choices use the versioned `chaitra-portfolio-mode-v2` preference; the former dark-default preference is ignored. `mode-init.js` applies the preference before paint. The pink header star badge has been removed in both modes.
 
@@ -39,3 +39,5 @@ Sparkles are enabled in both modes (unless the visitor switches them off or requ
 Professional background now defaults to Glass Layers, with the decorative orb removed. Casual remains the first-visit default. Background comparisons are available only through explicit `?background=aurora&compare=1` previews; normal visitors see no demo controls. Cyan sparkles and cursor-driven background motion remain enabled.
 
 Mode discovery: the pastel theme is labelled Fun. A header sticker reads “Want a professional vibe?” above the Professional button; Professional shows “Want a fun vibe?” above Fun. Both the sticker and button toggle modes. Fun remains the first-visit default and saved preferences still work.
+
+Freelancing showcases responsive websites for academies and boutiques, with a live Fashion Queen Collections link. Midnight Castle has its own Game project card in both Fun and Professional modes.

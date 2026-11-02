@@ -4,16 +4,17 @@ const reduced = matchMedia('(prefers-reduced-motion: reduce)');
 const projectGrid = document.querySelector('#projectGrid');
 const projectFlower = document.querySelector('#projectFlower');
 const projectCaption = document.querySelector('.project-caption');
-const shortNames = ['HUPP-LID','Quantum Decoder','PersonaLearn','Seamless Minds','DoChat','Web Development'];
+const shortNames = ['HUPP-LID','Quantum Decoder','PersonaLearn','Seamless Minds','DoChat','Freelancing','Midnight Castle'];
 const flowerLines = [
  'Finding every language in a mixed-script sentence.',
  'Learning to decode quantum error syndromes.',
  'Learning paths that grow with the learner.',
  'Speech, translated into new possibilities.',
  'Your PDFs, with a little more conversation.',
- 'Websites for academies & clinics. A game after dark.'
+ 'Websites made for academies and boutiques.',
+ 'A 3D adventure through four connected realms.'
 ];
-const projectPreviews=['hupp.svg','quantum.png','persona.png','speech.png','dochat.png','castle.png'];
+const projectPreviews=['hupp.svg','quantum.png','persona.png','speech.png','dochat.png','freelancing.svg','castle.png'];
 projectGrid.innerHTML = PROJECTS.map((project,index) => `<button type="button" class="cc-project" data-project="${index}" aria-label="Open ${esc(shortNames[index])} project flower"><span class="project-visual" aria-hidden="true"><span class="preview-topline"><span>${String(index+1).padStart(2,'0')} / ${index===0?'RESEARCH OVERVIEW':'PROJECT PREVIEW'}</span><span>↗</span></span><img src="assets/project-previews/${projectPreviews[index]}" alt="" loading="lazy" width="1200" height="720"><span class="preview-open">Explore project ↗</span></span><span class="cc-small"><span class="project-emoji" aria-hidden="true">${project.emoji}</span> ${esc(project.label)}</span><h3>${esc(shortNames[index])}</h3><p>${esc(project.kind)}</p></button>`).join('');
 let lastProjectTrigger = null;
 let activeProjectIndex = null;

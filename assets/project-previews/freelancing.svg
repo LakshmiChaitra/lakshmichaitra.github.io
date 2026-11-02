@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="#f3ebe2"/>
+  <circle cx="1090" cy="90" r="260" fill="#e1c5cf" opacity=".6"/>
+  <circle cx="110" cy="700" r="300" fill="#c7dbd0" opacity=".7"/>
+  <g font-family="Georgia,serif">
+    <rect x="84" y="111" width="540" height="454" rx="18" fill="#fffdf8" stroke="#c9bcae" stroke-width="2"/>
+    <path d="M84 163H624" stroke="#c9bcae"/>
+    <g fill="#c7b19d"><circle cx="111" cy="137" r="6"/><circle cx="134" cy="137" r="6"/><circle cx="157" cy="137" r="6"/></g>
+    <text x="124" y="226" font-size="18" letter-spacing="4" fill="#7e6958">ACADEMY WEBSITES</text>
+    <text x="124" y="296" font-size="46" fill="#264b41">A place to learn.</text>
+    <text x="124" y="350" font-size="46" fill="#264b41">Room to grow.</text>
+    <rect x="124" y="393" width="184" height="49" rx="24" fill="#264b41"/>
+    <text x="155" y="424" font-size="19" fill="#fffdf8">Explore classes</text>
+    <path d="M124 491H442M124 514H368" stroke="#d8ddd4" stroke-width="11"/>
+    <rect x="574" y="224" width="540" height="389" rx="18" fill="#51333f" stroke="#9b7787" stroke-width="2"/>
+    <text x="614" y="284" font-size="17" letter-spacing="4" fill="#e7c6ce">BOUTIQUE WEBSITES</text>
+    <text x="614" y="352" font-size="43" fill="#fff1e2">Fashion Queen</text>
+    <text x="614" y="405" font-size="43" fill="#fff1e2">Collections</text>
+    <path d="M614 447H1008" stroke="#a97b87"/>
+    <text x="614" y="489" font-size="22" fill="#e7c6ce">Collections, thoughtfully showcased.</text>
+    <rect x="614" y="525" width="218" height="48" rx="24" fill="#f1d9c4"/>
+    <text x="644" y="556" font-size="19" fill="#51333f">View collections ↗</text>
+  </g>
+</svg>
