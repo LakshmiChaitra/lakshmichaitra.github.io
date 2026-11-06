@@ -4,7 +4,7 @@ const reduced = matchMedia('(prefers-reduced-motion: reduce)');
 const projectGrid = document.querySelector('#projectGrid');
 const projectFlower = document.querySelector('#projectFlower');
 const projectCaption = document.querySelector('.project-caption');
-const shortNames = ['HUPP-LID','Stack Space','Quantum Decoder','PersonaLearn','Seamless Minds','DoChat','Freelancing','Midnight Castle'];
+const shortNames = ['HUPP-LID','Stack Space','Quantum Decoder','PersonaLearn','Seamless Minds','DoChat','Client Websites','Midnight Castle'];
 const flowerLines = [
  'Finding every language in a mixed-script sentence.',
  'Your projects, priorities, and next big idea — in one space.',
@@ -77,8 +77,8 @@ const modeCopy = [
  ['.cc-club-sticker.left','open to<br>internships'],
  ['.cc-club-sticker.right','thoughtfully<br>built ✦'],
  ['.cc-club-sticker.lower','curiosity → creation'],
- ['#hero-title','Curious about AI.<br><span class="cc-name">Serious about building.</span>'],
- ['.cc-intro','I’m Chaitra, a computer science student working across language technology, machine learning and web development.<br>Exploring ideas through research. Bringing them to life through code.'],
+ ['#hero-title','A mind for logic.<br><span class="cc-name">A knack for building.</span>'],
+ ['.cc-intro','I’m Chaitra, a Computer Science & Applied Mathematics student.<br>I build software, explore how systems work, and turn what I learn into things you can try.'],
  ['.cc-actions .cc-button','Explore my projects <span>↗</span>'],
  ['.project-window-title','PORTFOLIO / MY PROJECTS'],
  ['#projects-title','My projects.'],
