@@ -10,7 +10,7 @@ There is no build step. GitHub Pages can publish the repository root directly.
 
 ## Content
 
-`content.js` preserves the site’s eight projects, two experience entries, seven skill groups, five training programs, eight certificates and two education records. The original resume remains at `Lakshmi_Chaitra_Resume.pdf`. SmartSpend was removed at the owner’s request. No new claims, credential links or dates have been invented. The separate writing-system demonstration was removed at the owner’s request.
+`content.js` preserves the site’s four projects, one experience entry, seven skill groups, five training programs, eight certificates and two education records. The updated resume is at `Lakshmi_Chaitra_Resume.pdf`. SmartSpend was removed at the owner’s request. No new claims, credential links or dates have been invented. The separate writing-system demonstration was removed at the owner’s request.
 
 Pastel is the default for first visits. The mode switch changes the entire portfolio into a professional dark presentation: professional copy, a centred hero, graphite/green/steel colours, subtle stickers, and project case studies in place of flower reveals. Explicit mode choices use the versioned `chaitra-portfolio-mode-v2` preference; the former dark-default preference is ignored. `mode-init.js` applies the preference before paint. The pink header star badge has been removed in both modes.
 
@@ -25,7 +25,7 @@ The contact form retains the existing email-app fallback. It does not deliver a 
 - `styles.css`: original section foundation plus approved Sticker Club design
 - `app.js`: interactions and section rendering
 - `favicon.svg`: flower mark
-- `Lakshmi_Chaitra_Resume.pdf`: original resume
+- `Lakshmi_Chaitra_Resume.pdf`: updated resume
 - `.nojekyll`: plain static GitHub Pages publishing
 
 Local demo revision: both modes call the section “My projects.” The window’s Focus view button expands it into a native modal dialog. Back to playground or Escape restores its exact position. The dialog traps keyboard focus and the background cannot scroll. This revision is pending client review and has not been published.
