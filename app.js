@@ -68,8 +68,7 @@ function showProfessionalProject(index, preservePosition = false) {
  projectFlower.querySelector('.case-study-back').addEventListener('click',closeFlower);
  if(!preservePosition){projectFlower.scrollIntoView({block:'start',behavior:'instant'});projectFlower.querySelector('.case-study-back').focus({preventScroll:true});}
 }
-const themeToggle = document.querySelector('#theme-toggle');
-let night = document.documentElement.dataset.theme === 'night';
+const night = true;
 let effectsReady = false;
 const modeCopy = [
  ['.cc-brand','P. Lakshmi Chaitra'],
@@ -103,20 +102,12 @@ function applyTheme() {
  document.documentElement.dataset.theme=night?'night':'paper';
  document.documentElement.style.colorScheme=night?'dark':'light';
  document.querySelector('meta[name="theme-color"]').content=night?'#102b3a':'#fff3eb';
- themeToggle.textContent=night?'Fun ✿':'Professional ↗';
- themeToggle.setAttribute('aria-pressed',String(night));
- themeToggle.setAttribute('aria-label',night?'Switch to fun mode':'Switch to professional mode');
- document.querySelector('#mode-prompt').textContent=night?'Want a fun vibe?':'Want a professional vibe?';
- themeToggle.title=night?'Switch to fun mode':'Switch to professional mode';
  modeCopy.forEach(copy=>{copy.element.innerHTML=night?copy.professional:copy.paper;});
  projectGrid.querySelectorAll('[data-project]').forEach(button=>{const index=Number(button.dataset.project);button.setAttribute('aria-label',night?`Read ${shortNames[index]} case study`:`Open ${shortNames[index]} project flower`);});
  if(activeProjectIndex!==null&&!projectFlower.hidden)showProject(activeProjectIndex,lastProjectTrigger,true);
  if(effectsReady)renderSparks();
 }
 applyTheme();
-function switchMode(){night=!night;applyTheme();try{localStorage.setItem('chaitra-portfolio-mode-v2',night?'professional':'pastel');}catch{}}
-themeToggle.addEventListener('click',switchMode);
-document.querySelector('#mode-prompt').addEventListener('click',switchMode);
 let surpriseIndex=0;
 document.querySelector('.cc-surprise').addEventListener('click',event=>{
  const notes=night?['research<br>in progress ✦','always<br>learning ↗','ideas into<br>practice ✧','thoughtfully<br>built ✦']:['certified<br>“what if?” person','brb, making<br>a tiny thing ✿','one more idea.<br>then sleep. ☾','curiosity<br>club ✦'];
