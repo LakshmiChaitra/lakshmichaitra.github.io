@@ -10,7 +10,7 @@ There is no build step. GitHub Pages can publish the repository root directly.
 
 ## Content
 
-`content.js` preserves the site’s four projects, one experience entry, seven skill groups, five training programs, eight certificates and two education records. The updated resume is at `Lakshmi_Chaitra_Resume.pdf`. SmartSpend was removed at the owner’s request. No new claims, credential links or dates have been invented. The separate writing-system demonstration was removed at the owner’s request.
+`content.js` preserves the site’s eight projects, one experience entry, seven skill groups, five training programs, eight certificates and two education records. The updated resume is at `Lakshmi_Chaitra_Resume.pdf`. SmartSpend was removed at the owner’s request. No new claims, credential links or dates have been invented. The separate writing-system demonstration was removed at the owner’s request.
 
 Professional is the default presentation. Visitors can switch to the original fun mode, and their choice is remembered using the v3 preference.
 
