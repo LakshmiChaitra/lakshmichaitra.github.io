@@ -12,7 +12,7 @@ There is no build step. GitHub Pages can publish the repository root directly.
 
 `content.js` preserves the site’s four projects, one experience entry, seven skill groups, five training programs, eight certificates and two education records. The updated resume is at `Lakshmi_Chaitra_Resume.pdf`. SmartSpend was removed at the owner’s request. No new claims, credential links or dates have been invented. The separate writing-system demonstration was removed at the owner’s request.
 
-The portfolio uses the professional dark presentation exclusively. `mode-init.js` applies it before paint; saved mode preferences are ignored and the mode switch has been removed.
+Professional is the default presentation. Visitors can switch to the original fun mode, and their choice is remembered using the v3 preference.
 
 `app.js` renders the sections, opens project flowers, toggles full project notes, and handles theme and sparkle preferences. Escape and the back button return to the project cards. All content remains visible if scroll animation is unavailable. Reduced-motion preferences disable decorative motion and sparkles. Star effects clean up after themselves and are capped at 90 simultaneous animations.
 
