@@ -1,7 +1,7 @@
-// Set the saved view before styles paint. First visits use professional; visitors can choose fun mode.
+// Set the saved view before styles paint. First visits use casual; visitors can choose professional mode.
 (() => {
-  let professional = true;
-  try { professional = localStorage.getItem('chaitra-portfolio-mode-v3') !== 'pastel'; } catch {}
+  let professional = false;
+  try { professional = localStorage.getItem('chaitra-portfolio-mode-v3') === 'professional'; } catch {}
   if(['currents','caustics','ribbon'].includes(new URLSearchParams(location.search).get('hero'))) professional=true;
   if(['aurora','constellation','glass'].includes(new URLSearchParams(location.search).get('background')))professional=true;
   document.documentElement.dataset.background = 'glass';
